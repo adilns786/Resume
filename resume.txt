@@ -1,0 +1,135 @@
+% Last updated on 19 dec 2024
+\documentclass[11pt,a4paper,sans]{moderncv}
+\moderncvstyle{banking}
+\moderncvcolor{black}
+\nopagenumbers{}
+\usepackage[utf8]{inputenc}
+\usepackage{ragged2e}
+\usepackage[scale=0.915]{geometry}
+\usepackage{import}
+\usepackage{multicol}
+\usepackage{enumitem}
+\usepackage{amssymb}
+
+\name{\color{blue}{AADIL}}{SHAH}
+\newcommand*{\customcventry}[7][.13em]{
+\begin{tabular}{@{}l}
+{\bfseries #4} \
+{\itshape #3}
+\end{tabular}
+\hfill
+\begin{tabular}{l@{}}
+{\bfseries #5} \
+{\itshape #2}
+\end{tabular}
+\ifx&#7&%
+\else{\
+\begin{minipage}{\maincolumnwidth}%
+\small#7%
+\end{minipage}}\fi%
+\par\addvspace{#1}}
+
+\geometry{left=1.5cm,right=1.5cm,top=1.5cm,bottom=1.5cm}
+\fontsize{12}{15}\selectfont
+
+\begin{document}
+\makecvtitle
+\vspace*{-16mm}
+\begin{center}\textbf{\fontsize{15}{18}\selectfont Full Stack Developer}\end{center}
+\begin{center}
+\begin{tabular}{ c c c c }
+% \faPhone\enspace 9321871312 & 
+\enspace \faEnvelope\enspace adilns786@gmail.com & \enspace \faHome\enspace Kalwa, Thane & \enspace \faGlobe\enspace \href{https://adilnshah.web.app/}{adilnshah.web.app} \\
+\end{tabular}
+\end{center}
+
+\vfill
+
+\section {\color{blue}{PROFILE SUMMARY}}
+{A passionate Computer Engineer with expertise in full-stack web development and machine learning. I specialize in NextJs (and ReactJs), Firebase, Tailwind, and Flutter. My role as a Technical Officer at CSI and my success in winning the Smart India Hackathon '24 have honed my leadership and problem-solving skills.
+% With a strong foundation in DSA and Java,
+I am eager to leverage my skills in building impactful solutions.}
+
+\vfill
+
+\section{\color{blue}{SKILLS}}
+\textbf{• NextJs} \quad
+\textbf{• React} \quad 
+\textbf{• Tailwind} \quad 
+\textbf{• Firebase} \quad 
+\textbf{• ML} \quad  
+\textbf{• Flutter} \quad 
+% \textbf{• DSA} \quad 
+ \quad \textbf{• Java} 
+ \quad\textbf{• Django}
+ % \quad\textbf{• ExpressJS}
+
+\vfill
+
+\section{\color{blue}{EDUCATION}}
+\customcventry{2022-2026}{}{\textbf{BE Computer Science and Engineering}}{\textit{Aggregate CGPA: 9.36}}{}{}{
+Vivekanand Education Society’s Institute of Technology, Chembur
+}
+\vfill
+
+\section{\color{blue}{PROJECTS}}
+
+\customcventry{}{{\color{blue}{—Winning Project of Smart India Hackathon 2024 }}}{Sahkaar Setu}{}{}{
+{\begin{itemize}[leftmargin=0.6cm, label={\textbullet}]
+\item Developed a digital platform for inter-departmental cooperation in urban governance, addressing issues of resource underutilization and project miscoordination.
+\item Implemented features for data and resource sharing, task scheduling, and unified project planning to streamline inter-agency collaborations, enhancing efficiency in project execution.
+\item Tools Used: React, Firebase, Flask and Tailwind CSS.
+\end{itemize}}}
+
+\vfill
+
+\customcventry{}{{\color{blue}{— Presented to IEEE SILCON panel from NIT Agartala}}}{Air Aware}{}{}{
+{\begin{itemize}[leftmargin=0.6cm, label={\textbullet}]
+\item Built an interactive web platform fetching real-time AQI and pollutant data, integrated with a nationwide map visualization.
+\item Engineered personalized health recommendations, identifying safe cities for users with respiratory conditions like asthma.
+\item Tools Used: Html, Javascript, Leaflet, Firebase.
+\end{itemize}}}
+
+\vfill
+
+\customcventry{}{{\color{blue}{— Syrus’24 project, crowdsourced travel itinerary planner and personalized recommendations}}}{Trip Sync}{}{}{
+{\begin{itemize}[leftmargin=0.6cm, label={\textbullet}]
+\item Designed a platform for personalized travel itineraries using machine learning algorithms and user behavior tracking.
+\item Integrated features for blog creation, itinerary planning, and reviews, ensuring a seamless travel experience.
+\item Tools Used: React, Tailwind CSS, Flask, Python, and Firebase.
+\end{itemize}}}
+
+\vfill
+
+\section{\color{blue}{WORK EXPERIENCE}}
+
+
+\customcventry{}{{\color{blue}\href{https://www.csivesit.org/lander}{}}}{Freelance Full-Stack Developer}{}{}{
+{\begin{itemize}[leftmargin=0.6cm, label={\textbullet}]
+\item Designed and deployed full-stack websites for small businesses using Next.js (TypeScript), React, Tailwind CSS, MongoDB, Express, and Cloudinary. Collaborated with clients to deliver user-friendly, responsive, and scalable web applications with seamless backend API integration.
+\item Live Link: \href{https://thedzire.com/}{\color{blue} TheDzire Fashion Brand}
+% \href{https://example2.com}{Project 2},
+% \href{https://example3.com}{Project 3}
+\end{itemize}}}
+
+\customcventry{Oct 2023 ‐ present}{{\color{blue}\href{https://www.csivesit.org/lander}{}}}{Technical Officer, CSI VESIT}{}{}{
+{\begin{itemize}[leftmargin=0.6cm, label={\textbullet}]
+\item Conducted workshops on React and Flutter App Development, training over 50 participants, fostering collaborative learning and technical growth among peers.Maintained CSI's official website.
+% \item Maintained CSI's official website, to keep it up-to-date.
+\end{itemize}}}
+
+
+\vfill
+
+\section{\color{blue}{ACHIEVEMENTS}}
+{\begin{itemize}[label=\textbullet]
+      \item Winner of Smart India Hackathon 2024 (Aug-Dec 2024) at IIT Gandhinagar
+       \item Winner of TechXpression Hackathon (Feb 2025) at B.K. Birla College, Kalyan
+       \item Selected presenter at IEEE SILCON 2024, NIT Agartala
+      % \item Participant in 5+ Hackathons (Syrus24, Invictus24, Level Supermind Parel, Invictus25)  
+
+\end{itemize}}
+
+\vfill
+
+\end{document}
