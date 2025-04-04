@@ -1,4 +1,4 @@
-% Last updated on 19 March 2025
+% Last updated on 4 April 2025
 \documentclass[11pt,a4paper,sans]{moderncv}
 \moderncvstyle{banking}
 \moderncvcolor{black}
@@ -74,7 +74,7 @@
 \customcventry{}{{\color{blue}\href{https://www.csivesit.org/lander}{}}}{Freelance Full-Stack Developer}{}{}{
 {\begin{itemize}[leftmargin=0.6cm, label={\textbullet}]
 \item Designed and deployed full-stack websites for small businesses using Next.js (TypeScript), React.js, Tailwind CSS, MongoDB, Express.js, and Cloudinary. Collaborated with clients to deliver user-friendly, responsive, and scalable web applications with seamless backend API integration.
-\item Live Project: \href{https://thedzire.com/}{\color{blue} TheDzire Fashion Brand}
+\item Live Project: \href{https://thedzire.com/}{\color{blue} TheDzire.com (Fashion Brand)}, \href{https://therainpoint.com/}{\color{blue} TheRainpoint.com}
 \end{itemize}}}
 
 \customcventry{Oct 2023 ‐ Present}{{\color{blue}\href{https://www.csivesit.org/lander}{}}}{Technical Officer, CSI VESIT}{}{}{
